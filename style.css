@@ -33,7 +33,8 @@ header{
 
 }
 .logo{
-    font-size: 2em;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 3em;
     color: #fff;
     user-select: none;
 }
@@ -55,7 +56,7 @@ header{
 
 .navigation .btnsign-popup{
 
-   width: 100px;
+   width: 130px;
    height: 50px;
    background: transparent;
    border: none;
@@ -70,7 +71,7 @@ header{
    backdrop-filter: blur(20px);
    display: flex;
    align-items: center;
-   gap: 10px;
+   gap: 5px;
    
    
 }
@@ -102,46 +103,63 @@ header{
 }
 .input-box{
     position: relative;
-    width: 100%;
+    top: 90%;
+    width: 130%;
     height: 50px;
     border-bottom:2px solid black ;
-    margin:  30px 0;
+    margin:  30px 0px 30px;
 }
 
 .input-box label{
 
     position: absolute;
-    top: 50%;
-    left: 5px;
+    top: -100%;
+    left: 20px;
     transform: translateY(-50%);
     font-size: 1em;
     color: #fff;
     font-weight: 500;
     pointer-events: none;
+    transition: .5s;
     
-    
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -90px;
 }
  
 .input-box input{
-    width: 250%;
+    position: absolute;
+    top: -150%;
+    width: 243%;
     height: 100%;
     background: black;
     color: white;
-    border: 2px solid gray;
+    border: 2px solid beige;
     border-radius: 50px;
-    outline: none;
+    font-size: 1em;
+    color: gray;
+    font-weight: 600;
+    padding: 0 18px 0 ;
+
+    
+    
 }
+
 
 .form-box h2{
     font-size: 1.5em;
     color: rgb(255, 255, 255);
     text-align: left;
     height: 200px;
+    
+    
 
 
 }
 .btn{
-    width: 250%;
+    width: 315%;
     height: 100%;
     padding: 10px;
     background:  #FC08C7;
@@ -151,7 +169,3 @@ header{
     outline: none;
 }
 
-
-
-
-}
