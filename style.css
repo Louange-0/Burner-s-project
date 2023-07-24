@@ -2,16 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    margin: 0;
 }
 
 body{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     min-height: 100vh;
-    background: url('login.jfif')no-repeat;
+    background: url('background image 1.jfif')no-repeat;
     background-size: cover;
-    background-position: center;     
+    background-position: center; 
+     
+        
+        
 
 }
 
@@ -33,13 +37,19 @@ header{
     color: #fff;
     user-select: none;
 }
-.navigation a{
+.navigation{
+    display: flex;
+}
+.navigation .help-anchor{
     position: relative;
     font-size: 1.1em;
     color: #fff;
     text-decoration: none;
     font-weight: 500;
     margin-right: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 
@@ -48,7 +58,7 @@ header{
    width: 130px;
    height: 50px;
    background: transparent;
-   border: 2px solid #fff;
+   border: none;
    outline: none;
    border-radius:6px ;
    cursor: pointer;
@@ -58,7 +68,16 @@ header{
    margin-right: 600px;
    transition: .5s;
    backdrop-filter: blur(20px);
+   display: flex;
+   align-items: center;
+   gap: 10px;
    
+   
+}
+
+.help-anchor{
+    display: flex;
+    gap: 3px ;
 }
 .navigation .btnsign-popup:hover{
     background: #fff;
@@ -66,5 +85,18 @@ header{
 
 }
 .wrapper{
-
+    color: #ffffff;
+    position: static;
+    width: 750px;
+    height: 790px;
+    background: black;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    /* border-radius: 20px; */
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex   ;
+    justify-content: left;
+    align-items: center ;   
+    
 }
+
