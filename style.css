@@ -10,7 +10,7 @@ body{
     justify-content: left;
     align-items: center;
     min-height: 100vh;
-    background: url('login.jfif')no-repeat;
+    background: url('images/login.jfif')no-repeat;
     background-size: cover;
     background-position: center; 
      
