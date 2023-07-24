@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Cedarville+Cursive&family=Inria+Sans:wght@300;400&family=Inter&family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500&family=Mulish:ital,wght@0,200;0,300;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Outfit:wght@100&family=PT+Sans:ital@1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,400&family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+i{
+    cursor: pointer;
+    color: white;
+    font-size: 1em;
+    margin-right: .5em;
+}
+.container{
+    width: 100vw;
+    background-color: black;
+    color: white;
+    overflow: scroll;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 7vh;
+    background: #0B0B0B;
+    justify-content: space-between;
+    font-family: 'Inter',sans-serif;
+}
+.navbar h1{
+    padding: 1em;
+    color: white;
+    margin-right: 5em;
+    font-family: 'Inter',sans-serif;
+}
+a{
+    text-decoration: none;
+    font-family: 'Inter',sans-serif;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+    flex: 1;
+    color: white;
+    list-style: none;
+}
+.navbar ul li a{
+  color: white;
+  font-size: .8rem;
+}
+.navbar ul li:nth-child(5){
+    margin-left: 5em;
+    width: 3em;
+}
+.content{
+    height: 80%;
+}
+.slogan{
+   color: white; 
+   font-size: 2em;
+   font-family: 'Inria Sans',sans-serif;
+   text-align: center;
+   font-weight: lighter;
+   margin-top: 2em;
+}
+.form{
+    width: 80%;
+    text-align: center;
+    border: 2px solid white;
+    margin:  5% 10%;
+    font-family: 'Inria Sans';
+}
+.form h4{
+    text-align: center;
+    color: rgb(158, 11, 158);
+    font-family: 'Inria Sans',sans-serif;
+    padding: 1em;
+}
+.select #one,#two{
+    display: flex;
+    justify-content: space-between;
+    padding:0 5em ; 
+}
+.select select{
+    width: 30em;
+    margin: 1em;
+    height: 2.5em;
+    border: none;
+}
+.select input{
+    width: 30em;
+    height: 2.5em;
+    margin: 1em;
+    border: none;
+}
+
+.select #three{
+    display: flex;
+    flex-direction: column;
+    padding:0 5em ;
+}
+.select button{
+    width: 10em;
+    border-radius: .5em;
+    border: none;
+    color: white;
+    background: rgb(158, 11, 158);
+    height: 3em;
+    margin: 2em;
+}
+.footer-links{
+   display: flex; 
+   justify-content: space-between;
+   background-color: #0B0B0B;
+   padding: 0 2em;
+   font-family: 'Outfit',sans-serif;
+}
+.footer-links #lan{
+    display: flex;
+    flex-direction: column;
+}
+.footer-links #lan select{
+    margin-top: 1em;
+    width: 10em;
+    height: 2em;
+}
+.footer-links ul{
+    list-style: none;
+    cursor: pointer;
+    font-family: 'Outfit',sans-serif;
+}
+.footer-links ul li{
+    font-family: 'Outfit',sans-serif;
+    font-size: .7rem;
+}
+.footer-links ul li:hover{
+    color: grey;
+}
+.footer{
+    padding: 2em;
+}
+.footer ul{
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-family: 'Outfit',sans-serif;
+}
