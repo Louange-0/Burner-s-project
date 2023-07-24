@@ -3,20 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    
-    position: static;
-    width: 50%;
+
+body{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('background image 1.jfif')no-repeat;
+    background: url('login.jfif')no-repeat;
     background-size: cover;
-    background-position: center; 
-    float: center;
-}
+    background-position: center;     
 
+}
 
 
 header{
@@ -60,10 +57,14 @@ header{
    font-weight: 500;
    margin-right: 600px;
    transition: .5s;
+   backdrop-filter: blur(20px);
    
 }
 .navigation .btnsign-popup:hover{
     background: #fff;
     color: #162916;
+
+}
+.wrapper{
 
 }
