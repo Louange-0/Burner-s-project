@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: 'Outfit', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&display=swap');
+}
+body{
+    background-color: black;
+    font-family: 'Outfit', sans-serif;;
+}
+
+           /* ===================LEFT IMAGE======================== */
+
+img{
+    position: absolute;
+    height: 100%;
+    width: 650px;
+    left: 605px;
+}
+
+nav{
+    font-size: 22px;
+    padding: 30px;
+    color: white;
+    position: fixed;
+    
+}
+.Text{
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 120px;
+    
+}
+p{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#vector{
+    position: absolute;
+    height: 200px;
+    width: 280px;
+    margin-left: -560px;
+    margin-top: 40px;
+}
+
+button{
+    position: absolute;
+    display: flex;
+    width: 450px;
+    padding: 17px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 61px;
+    background: #FC08C7;
+    color: white;
+    font-size: 20px;
+    bottom: -360px;
+    right: -100px;
+    font-weight: 10;
+}
+
+.icons{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 100px;
+    padding: 40;
+    margin-left: 470px;
+
+}
+
+span{
+    color: white;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.595);
+    height: 32px;
+    width: 90px;
+    border-radius: 30px;
+    bottom: 130px;
+    left: 135px;
+    z-index: 20;
+}
+
+#special-one{
+    right: 297px;
+    position: relative;
+    /* margin-right: 800px; */
+    z-index: 40;
+}
+
+article{
+    position: absolute;
+    color: white;
+    margin-left: 550px;
+    margin-top: 46;
+    
+}
+
+#artcl_2{
+    margin-left: 675px;
+}
